@@ -39,6 +39,7 @@ gpc_tristrip * generate_tristrip(const int len, Vector2 poly[]) {
         }
     }
 
+    free(vlist->vertex);
     free(vlist);
     free(polygon);
     return tristrip;
