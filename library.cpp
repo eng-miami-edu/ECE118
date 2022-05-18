@@ -49,11 +49,14 @@ void fill_shape()
   c_fill_shape(pen_color); }
 
 void draw_shape()
-{ int last = current_shape.points.size() - 1;
+{ int last = current_shape.points.size()-1;
+  int x = current_shape.points[last].x;
+  int y = current_shape.points[last].y;
   for (int i = 0; i <= last; i += 1)
-  { Vector2 a = current_shape.points[i];
-    Vector2 b = current_shape.points[ i == last ? 0 : i ];
-    c_draw_line(a.x, a.y, b.x, b.y, pen_color); } }
+  { Vector2 p = current_shape.points[i];
+    c_draw_line(x, y, p.x, p.y, pen_color);
+    x = p.x;
+    y = p.y; } }
 
 void move_to(double x, double y)
 { pen_x = x;
