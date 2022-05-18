@@ -16,11 +16,11 @@ struct color
 
 using namespace std;
 
-void make_window(int w, int h, string text = "Graphics");
-bool running();
-void begin();
-void end();
-void close_window();
+void make_window(int w, int h, string text = "Graphics"); // Initialize window and OpenGL context
+bool running();                                           // Check if KEY_ESCAPE pressed or Close icon pressed
+void begin();                                             // Setup canvas (framebuffer) to start drawing
+void end();                                               // End canvas drawing and swap buffers (double buffering)
+void close_window();                                      // Close window and unload OpenGL context
 
 void set_pen_color(int c);
 void move_to(double x, double y);
