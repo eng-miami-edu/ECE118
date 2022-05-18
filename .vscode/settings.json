@@ -1,0 +1,18 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "~/Documents/ECE118/",
+            "binaryPath": "~/Documents/ECE118/main",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/roman/Documents/ECE118",
+            "binaryPath": "/Users/roman/Documents/ECE118/main",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "stdlib.h": "c"
+    }
+}
