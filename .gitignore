@@ -1,3 +1,6 @@
+# Eclude executable
+main
+
 # Exclude log files
 *.log
 
