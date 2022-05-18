@@ -17,11 +17,11 @@ int main()
     set_pen_color(color::red);
     draw_shape();
 
-    move_to(500, 100);
-    draw_to(500, 200);
-    draw_to(400, 200);
-    draw_to(400, 100);
-    draw_to(500, 100);
+    // move_to(500, 100);
+    // draw_to(500, 200);
+    // draw_to(400, 200);
+    // draw_to(400, 100);
+    // draw_to(500, 100);
 
     end(); }
   close_window(); }
