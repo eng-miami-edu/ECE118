@@ -1,3 +1,6 @@
+# Exclude VSCode files
+.vscode
+
 # Eclude executable
 main
 
