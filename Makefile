@@ -15,3 +15,4 @@ clibrary.o: clibrary.c
 
 gpc.o: gpc.c
 	gcc -c gpc.c -I include
+
